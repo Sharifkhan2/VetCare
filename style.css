@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style-type: none;
+
+}
+.heading{
+    width: 100%;
+    height: 121px;
+    background-color: #daac00;
+}
+.heading .container{
+
+    height: 100%;
+    width: 1200px;
+    padding: 0 25px;
+    background-color: #daac00;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu{
+    display: flex;
+    align-items: center;
+
+}
+.manu li a{
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 29px;
+    font-weight: 500;
+}
+.scarch{
+    height: 50px;
+    width: 270px;
+    background-color: #fcc302;
+    border: none;
+    padding: 0 14px;
+    
+}
+.scarch::placeholder{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+ 
+}
+.inputlist{
+    position: relative;
+}
+.icone{
+    height: 50px;
+    width: 71px;
+    background-color: #00bec9;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sicone{
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.secondpara{
+    width: 100%;
+    height: 721px;
+    background-color: #fcc302;
+    
+}
+.secondpara2{
+    height: 100%;
+    width: 1150px;
+    margin: 0 auto;
+    background-color: #fcc302;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.paragraph{
+   height: 395px;
+   width: 665px;
+   position: relative;
+   
+   
+}
+p{
+    padding-top: 20px;
+}
+.dog{
+    width: 411px;
+    height: 562px;
+
+}
+.link{
+    height: 40px;
+    width: 100px;
+    background-color: #00bec9;
+    /* display: inline-block; */
+    position: absolute;
+    bottom: 96px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50%; */
+
+    
+}
+.link1{
+    height: 40px;
+    width: 100px; 
+    background-color: aqua;
+    /* display: inline-block; */
+    position: absolute;
+    left: 140px;
+    bottom: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
